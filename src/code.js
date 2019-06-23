@@ -1,3 +1,1 @@
-import "./myChain";
-// import "./schedule";
-// import "./scheduleFromPx";
+import './chromeDevTools/test1'
