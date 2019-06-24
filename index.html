@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Chrome DevTools</title>
 
     <style>
-        h1 {
-          font-size: 1.5em
-        }
-        input, button {
-          min-width: 72px;
-          min-height: 36px;
-          border: 1px solid grey;
-        }
-        label, input, button {
-          display: block;
-        }
-        input {
-          margin-bottom: 1em;
-        }
-      </style>
-</head>
-<body>
+      h1 {
+        font-size: 1.5em;
+      }
+      input,
+      button {
+        min-width: 72px;
+        min-height: 36px;
+        border: 1px solid grey;
+      }
+      label,
+      input,
+      button {
+        display: block;
+      }
+      input {
+        margin-bottom: 1em;
+      }
+      img {
+        width: 100%;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
     <h1>Demo: 让我们开始吧</h1>
     <label for="num1">Number 1</label>
-    <input placeholder="Number 1" id="num1">
+    <input placeholder="Number 1" id="num1" />
     <label for="num2">Number 2</label>
-    <input placeholder="Number 2" id="num2">
-    <button>Number 1 + Number 2</button>
+    <input placeholder="Number 2" id="num2" />
+    <button class="add">Number 1 + Number 2</button>
     <p></p>
     <script src="/bundle.js"></script>
-</body>
+  </body>
 </html>
