@@ -24,20 +24,35 @@
       input {
         margin-bottom: 1em;
       }
-      img {
+      img.cover {
         width: 100%;
         height: 150px;
+      }
+      img.code{
+        width: 120px;
+        height: 40px;
       }
     </style>
   </head>
   <body>
     <h1>Demo: 让我们开始吧</h1>
+    <h3>加法计算</h3>
     <label for="num1">Number 1</label>
     <input placeholder="Number 1" id="num1" />
     <label for="num2">Number 2</label>
     <input placeholder="Number 2" id="num2" />
     <button class="add">Number 1 + Number 2</button>
-    <p></p>
+    <p class="addResult"></p>
+    <hr/>
+    <h3>图片的展示</h3>
+    <img class="cover"/>
+    <button class="showImg">点击展示图片</button>
+    <!-- 验证码 -->
+    <hr/>
+    <div>
+      <p>验证码</p>
+      <img class="code"/>
+    </div>
     <script src="/bundle.js"></script>
   </body>
 </html>

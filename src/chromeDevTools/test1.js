@@ -37,6 +37,6 @@ function getNumber2() {
 }
 
 var inputs = document.querySelectorAll("input");
-var label = document.querySelector("p");
+var label = document.querySelector("p.addResult");
 var button = document.querySelector("button.add");
 button.addEventListener("click", onClick);
