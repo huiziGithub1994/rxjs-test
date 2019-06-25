@@ -1,3 +1,3 @@
-import './chromeDevTools/test1'
+import './chromeDevTools/base'
 import './chromeDevTools/blackbox'
 import './chromeDevTools/xhr'
